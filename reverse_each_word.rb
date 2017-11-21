@@ -6,5 +6,5 @@ def reverse_each_word (string)
   arr.collect do |word|
     message << word.reverse
   end
-  message.join
+  message.join (" ")
 end
